@@ -25,7 +25,7 @@ let finalItems= '';
 			console.log(item);			
 			items+= '<input id="'+ShoppingList[i].name+'_textbox" type="text" readOnly = true value="'+ShoppingList[i].name+'">' + '&nbsp &nbsp &nbsp &nbsp &nbsp' +'<button id="'+ShoppingList[i].name+'_btn" onClick=addTotal("'+ ShoppingList[i].name +'",'+ShoppingList[i].price+')>Add</button>' 
 			+'&nbsp &nbsp &nbsp &nbsp &nbsp'+'<button id="'+ShoppingList[i].name+'_rmbtn" onClick=removeItem("'+ ShoppingList[i].name +'",'+ShoppingList[i].price+')>Remove</button>';
-			items+= '&nbsp &nbsp &nbsp &nbsp &nbsp'+ '<input id="'+ShoppingList[i].name+'_tb" type="text" name="inputbox" value="0">' + '<br />';
+			items+= '&nbsp &nbsp &nbsp &nbsp &nbsp'+ '<input id="'+ShoppingList[i].name+'_tb" readOnly = true type="text" name="inputbox" value="0">' + '<br />';
 			console.log(items);
 		}
 items += '<br />'+'<br />'+'<br />';
