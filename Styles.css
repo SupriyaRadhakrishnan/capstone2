@@ -1,0 +1,117 @@
+h1
+{
+	padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+}
+body{
+background-image: url("MainBackground.jpg");
+background-repeat: no-repeat,
+opacity: 0.75;
+background-size: cover;
+}
+
+.add {
+    text-decoration: none;
+	border: 2px solid black;
+	background-color: black;
+	color: white;
+	padding: 4px;	
+}
+
+#Bread_tb,#Cereals_tb,#Milk_tb,#Apples_tb,#Eggs_tb
+{
+    font-size       : 10px;
+    width           : 20px;
+    height          : 20px;
+    border          : none;
+    background      : white;
+    
+}
+#Bread_textbox,#Cereals_textbox,#Milk_textbox,#Apples_textbox,#Eggs_textbox
+{
+    background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin: 4px 2px;
+    
+}
+
+#ShoppingCart
+{
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+  background:yellow;	
+	
+}
+#ShoppingCart tr:nth-child(even){background-color: #f2f2f2;
+}
+
+#ShoppingCart tr:hover {background-color: #ddd;}
+
+#ShoppingCart th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+#outputdiv
+{
+	  font-style: italic;
+	 font-weight:bold;
+	 font-size : 20px;
+	 -ms-flex: 1;  /* IE 10 */  
+     color:red
+}
+
+#Bread_btn,#Cereals_btn,#Milk_btn,#Apples_btn,#Eggs_btn
+{
+ background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#Bread_rmbtn,#Cereals_rmbtn,#Milk_rmbtn,#Apples_rmbtn,#Eggs_rmbtn
+{
+	 background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#Pay,#Shop,#Confirm
+{
+	 background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin: 4px 2px;
+  cursor: pointer;
+}

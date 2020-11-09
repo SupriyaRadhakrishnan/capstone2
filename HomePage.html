@@ -1,0 +1,17 @@
+<html>
+<head>
+<link href="Styles.css" rel="stylesheet" />
+<script src="script.js"></script>
+</head>
+<body onload ="resetSessionVariables()">
+	<h1>Supra Supermarket <br/>
+	<i>One Stop Destination for Home Needs</i></h1>
+	<button id="Shop">Shop</button>
+     <div id ="outputdiv"></div>
+     <script>
+		let el = document.querySelectorAll('#Shop')[0];
+		el.addEventListener('click',displayListOfItems);
+	</script>
+	</body>
+</html>
+
